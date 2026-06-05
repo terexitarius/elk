@@ -169,6 +169,10 @@ export default defineNuxtConfig({
       env: '',
       base: '',
     },
+    cloudflareCache: {
+      accountId: '',
+      kvNamespaces: [],
+    },
     public: {
       privacyPolicyUrl: '',
       // We use LibreTranslate (https://github.com/LibreTranslate/LibreTranslate) as
